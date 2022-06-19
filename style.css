@@ -1,0 +1,32 @@
+.success,.error{
+    color: wihte;
+    padding: 5px;
+    margin: 5px 0px 15px 0;
+}
+.success{
+    background-color: green;
+}
+.error{
+    background-color: red;
+}
+h4{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    /* background-image:url("./pexels-mentatdgt-1319854.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    color:coral!important;
+    font-size: 2rem!important;
+    
+}
+
+input[type="submit"]{
+    background-color: green!important;
+    color: white!important;
+}
