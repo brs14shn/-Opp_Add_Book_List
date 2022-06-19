@@ -16,11 +16,11 @@ h4{
 }
 
 body{
-    /* background-image:url("./pexels-mentatdgt-1319854.jpg");
+    background-image:url("./pexels-pixabay-256453.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     color:coral!important;
     font-size: 2rem!important;
     
@@ -29,4 +29,9 @@ body{
 input[type="submit"]{
     background-color: green!important;
     color: white!important;
+}
+
+.container{
+    background-color: aliceblue;
+    margin-top: 2rem!important;
 }

@@ -7,9 +7,6 @@ class Book{
     }   
 }
 
-
-
-
  function add(book){
         const list=document.getElementById("book_list");
         const row=document.createElement("tr");
@@ -86,15 +83,10 @@ class Book{
      else{
 
      add(book)
-
      showAlert("Book Added","success")
      clearField()
   
      }
-   
-  
-
-
   })
 
 
