@@ -48,7 +48,7 @@ class Book{
     //* delete 
       function deleteBook(target){
         if(target.className=="delete"){
-          target.parentElement.parentElement.remove()
+          target.parentElement.remove()
         }
       }
 
@@ -69,7 +69,7 @@ class Book{
   document.getElementById("book-form").addEventListener("submit",function(e){
     console.log("tıklandı");
     e.preventDefault();
-  const title=document.getElementById("title").value;
+   const title=document.getElementById("title").value;
    const author=document.getElementById("author").value;
    const bpy=document.getElementById("bpy").value;
    
@@ -78,7 +78,7 @@ class Book{
 
    //console.log(book);
 
-    if(title=="" || author=="" || bpy==""){
+    if(!(title||author||bpy)){
       
     
    showAlert("Lütfen bir veri girişi yapınız","error")
@@ -88,10 +88,11 @@ class Book{
      add(book)
 
      showAlert("Book Added","success")
+     clearField()
   
      }
    
-   clearField()
+  
 
 
   })
