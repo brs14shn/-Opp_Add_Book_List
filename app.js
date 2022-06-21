@@ -78,7 +78,7 @@ class Book{
     if(!(title||author||bpy)){
       
     
-   showAlert("Lütfen bir veri girişi yapınız","error")
+   showAlert("Please make a data entry","error")
      }
      else{
 
@@ -88,8 +88,6 @@ class Book{
   
      }
   })
-
-
 document.querySelector("#book_list").addEventListener("click",function(e){
   deleteBook(e.target)
   showAlert("Book Removed","success")
